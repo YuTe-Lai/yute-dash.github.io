@@ -1,12 +1,20 @@
-## Dash
+## 安裝
 
-You can use the [editor on GitHub](https://github.com/YuTe-Lai/yute-dash.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Dash 是建構於 Plotly.js、React.js 與 Flask 之上的 Python 網頁應用程式框架，能夠將常見的使用者介面元件包含像是下拉式選單、滑桿或圖形與 資料分析應用快速地連結起來，讓以 Python 為主的資料科學團隊不需要 JavaScript 也可以建立出具備高度互動性的圖表與儀表板。<br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+dash_core_components 與 dash_html_components組件庫包含了一系列Pythoon版本的HTML標籤。其中 dash_core_component 這種交互式高階組件庫使用的並非僅有HTML語言，而是包含JavaScript、HTML和CSS，並由React.js庫生成的。<br><br>
 
-### Markdown
+在終端機執行
+```
+pip install dash
+pip install dash-html-components
+pip install dash-core-components
+```
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+### 使用Dash製作HTML
+
+Dash是由兩個部分所組成的，分別是Layout及Callback。前者是網頁應用程式的樣式設計(外觀)，後者為應用程式的互動。
 
 ```markdown
 Syntax highlighted code block
