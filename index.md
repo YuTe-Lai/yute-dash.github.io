@@ -12,11 +12,11 @@ pip install dash-core-components
 ```
 
 
-### 使用Dash製作HTML
+## 使用Dash製作HTML
 
 Dash是由兩個部分所組成的，分別是Layout及Callback。前者是網頁應用程式的樣式設計(外觀)，後者為應用程式的互動。
 
-```
+```python
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
